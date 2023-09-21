@@ -1,9 +1,9 @@
 #include <stdio.h>
 /*
- * File: 5-printf.c
- * By: Jackie L
- * Main - printf function
- * int main
+ * Main: printf 
+ * 
+ * Decription: Prints line of text with printf
+ *
  * Return: 0
  */
 int main(void)
