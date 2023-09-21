@@ -1,4 +1,4 @@
-#include <stdoi.h>
+#include <stdio.h>
 /*File: 6-size.c
  * By: Jackie L
  */
