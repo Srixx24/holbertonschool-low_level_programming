@@ -4,7 +4,7 @@
  * By: Jackie L
  * printf function
  */
-int printf (void)
+int printf(void)
 {
 	/*String Start*/
 	printf ("with proper grammar, but the outcome is a piece of art,");
@@ -13,5 +13,5 @@ int printf (void)
 	 *
 	 * Return: 0
 	 */
-	return (0)
+	return (0);
 }
