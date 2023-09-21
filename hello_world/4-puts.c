@@ -1,9 +1,10 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(_) {
+int main(_)
+{
 
-	char str1[] = "/"Programming is like building a multilingual puzzle";
+	char str1[] = "\"Programming is like building a multilingual puzzle";
 	
 	puts (str1);
 
