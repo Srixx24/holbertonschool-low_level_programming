@@ -7,7 +7,9 @@ int main(void)
 	 *string start
 	 */
 	char str1[] = "\"Programming is like building a multilingual puzzle";
-	puts(str1); \n
+	char str2[] = "\n";
+	puts(str1);
+	puts(str2);
 
 	return (0);
 }
