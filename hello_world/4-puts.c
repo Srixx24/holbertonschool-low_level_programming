@@ -1,22 +1,15 @@
 #include <stdio.h>
 
 /**
- * File 4-puts.c
- * By: Jackie L
- * Main start point
+ * Main - puts
+ *
+ * Description: prints lines of text with puts
+ *
+ * Return: 0
  */
 int main(void)
 {
-	/**
-	 * Start main
-	 */
 	puts("\"Programming is like building a multilingual puzzle");
-	/**
-	 * Main - Write a C program that prints exactly
-	 * Programming is like building a multilingual puzzle,
-	 * followed by a new line.
-	 * strut puts string
-	 * Return - always 0
-	 */
+
 	return (0);
 }
