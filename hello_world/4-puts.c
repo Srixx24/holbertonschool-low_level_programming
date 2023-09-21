@@ -3,9 +3,11 @@
 
 int main(void)
 {
-
-	char str1[] = "\"Programming is like building a multilingual puzzle\n";
-	puts(str1);
+	/**
+	 *string start
+	 */
+	char str1[] = "\"Programming is like building a multilingual puzzle";
+	puts(str1); \n
 
 	return (0);
 }
