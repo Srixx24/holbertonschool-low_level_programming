@@ -1,8 +1,7 @@
 #include <stdio.h>
 
 /**
- *
- * main - puts
+ * main - puts function
  *
  * Description: prints lines of text with puts
  *
