@@ -3,6 +3,7 @@
 /**
  * File 4-puts.c
  * By: Jackie L
+ * Main start point
  */
 int main(void)
 {
@@ -15,7 +16,7 @@ int main(void)
 	 * Programming is like building a multilingual puzzle,
 	 * followed by a new line.
 	 * strut puts string
-	 * return is always 0
+	 * Return - always 0
 	 */
 	return (0);
 }
