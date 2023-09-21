@@ -1,20 +1,21 @@
 #include <stdio.h>
 
 /**
- * Documentation for puts function
+ * Documentation for puts function short discriptions discribed here
  * By: Jackie L
- * yay betty..
+ * main about start strut
  */
 int main(void)
 {
 	/**
-	 * Start
-	 *
+	 * Start main 
+	 * discribtion here 
+	 * more lines
 	 */
 	puts("\"Programming is like building a multilingual puzzle");
 	/**
 	 * My first attempt of a puts funtion
-	 * more lines
+	 * and more lines
 	 * beacuse we need more
 	 */
 	return (0);
