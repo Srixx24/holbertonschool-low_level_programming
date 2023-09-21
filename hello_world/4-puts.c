@@ -1,22 +1,19 @@
 #include <stdio.h>
 
 /**
- * Documentation for puts function short discriptions discribed here
+ * File 4-puts.c
  * By: Jackie L
- * main about start strut
  */
 int main(void)
 {
 	/**
-	 * Start main 
-	 * discribtion here 
-	 * more lines
+	 * Start main
 	 */
 	puts("\"Programming is like building a multilingual puzzle");
 	/**
-	 * My first attempt of a puts funtion
-	 * and more lines
-	 * beacuse we need more
+	 * Main - Write a C program that prints exactly 
+	 * Programming is like building a multilingual puzzle, 
+	 * followed by a new line.
 	 */
 	return (0);
 }
