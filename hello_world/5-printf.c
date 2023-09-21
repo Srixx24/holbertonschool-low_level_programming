@@ -4,7 +4,7 @@
  * By: Jackie L
  * printf function
  */
-int printf(void)
+int main(void)
 {
 	/*String Start*/
 	printf ("with proper grammar, but the outcome is a piece of art,");
