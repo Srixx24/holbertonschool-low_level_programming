@@ -1,5 +1,5 @@
 #include <stdio.h>
-/*
+/**
  * main - printf
  *
  * Decription: Prints line of text with printf
