@@ -1,7 +1,7 @@
 #include <stdio.h>
 /*
- * Main: printf 
- * 
+ * main - printf
+ *
  * Decription: Prints line of text with printf
  *
  * Return: 0
