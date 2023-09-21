@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 
-int main(_)
+int main(void)
 {
 
 	char str1[] = "\"Programming is like building a multilingual puzzle";
