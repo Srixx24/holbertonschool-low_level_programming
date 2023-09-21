@@ -3,6 +3,7 @@
  * File: 5-printf.c
  * By: Jackie L
  * Main - printf function
+ * int main
  * Return: 0
  */
 int main(void)
