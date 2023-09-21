@@ -2,17 +2,13 @@
 /*
  * File: 5-printf.c
  * By: Jackie L
- * printf function
+ * Main - printf function
+ * Return: 0
  */
 int main(void)
 {
 	/*String Start*/
 printf("with proper grammar, but the outcome is a piece of art,\n");
-	/*
-	 * Main fuction using printf
-	 * with proper grammar, but the outcome is a piece of art,
-	 *
-	 * Return: 0
-	 */
+	
 	return (0);
 }
