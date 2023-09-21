@@ -3,10 +3,10 @@
 #include <stdio.h>
 
 /**
- * Main - printing variables based on n's value
+ * Main - if loop fuction is printing variables based on n's value
  *
  * Description: printing variables based on n's value
- * with an if / if else loop
+ * with an if / if else loop function
  *
  * Return: 0
  *
