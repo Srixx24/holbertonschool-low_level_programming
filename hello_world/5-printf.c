@@ -7,7 +7,7 @@
 int main(void)
 {
 	/*String Start*/
-printf("with proper grammar, but the outcome is a piece of art,");
+printf("with proper grammar, but the outcome is a piece of art,\n");
 	/*
 	 * Main fuction using printf
 	 * with proper grammar, but the outcome is a piece of art,
