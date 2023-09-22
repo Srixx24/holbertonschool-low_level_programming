@@ -6,7 +6,7 @@
  * main - if loop
  *
  * description - using if /if else loop fuctions to
- * print something I havent read it yet
+ * print numbers of the last line
  *
  * Return: 0
  */
