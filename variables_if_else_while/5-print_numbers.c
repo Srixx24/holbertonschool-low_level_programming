@@ -9,12 +9,7 @@
  */
 int main(void)
 {
-	int x;
-
-	for (x = 0; x < 10; x++);
-	printf("%d", x);
-	
-	putchar('\n');
+	printf("0123456789\n");
 
 	return (0);
 }
