@@ -10,10 +10,10 @@
 
 int main(void)
 {
-	char ch;
+	char low, e, q;
 
 	for (ch = 'a'; ch <= 'z'; ch++)
-		if (ch == 'q' && 'e' )
+		if (ch == 'q' && 'e')
 	{
 		putchar (ch);
 	}
