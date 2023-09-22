@@ -9,10 +9,10 @@
  */
 int main(void)
 {
-	char x;
+	char ch = 'x';
 
-	for ( x = 0; x < 10; x++ );
-	putchar (x + '0');
+	for ( x = 0; x <= 10; x++ );
+	putchar (ch);
 
 	putchar('\n');
 
