@@ -13,9 +13,8 @@ int main(void)
 {
 	int x;
 
-	for (x - 48; x < 58; x++);
-	{
-		putchar (x);
+	for (x = 0; x < 10; x++);{
+		putchar ((x % 10) + '0');
 	}
 
 	putchar('\n');
