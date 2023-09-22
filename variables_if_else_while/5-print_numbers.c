@@ -11,7 +11,7 @@ int main(void)
 {
 	char ch = '0';
 
-	for ( x = '0'; x <= '9'; x++ );
+	for ( ch = '0'; ch <= '9'; ch++ );
 	putchar (ch);
 
 	putchar('\n');
