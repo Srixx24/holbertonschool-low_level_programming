@@ -9,11 +9,10 @@
  */
 int main(void)
 {
-	char ch = '0';
+	int x;
 
-	for (ch = '0'; ch <= '9'; ch++);
-	
-	putchar (ch);
+	for (x = 0; x <= 9; x++);
+		printf("%d", x);
 	
 	putchar('\n');
 
