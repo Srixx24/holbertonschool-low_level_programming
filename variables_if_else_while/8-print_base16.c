@@ -9,6 +9,7 @@
 int main(void)
 {
         char num;
+	char let;
 
         for (num = '0'; num <= '9'; num++)
 	        {
@@ -16,8 +17,6 @@ int main(void)
 		putchar (num);
 
 		}
-	
-	char let;
 
 	for (let = 'a'; let <= 'f'; let++)
 		{
