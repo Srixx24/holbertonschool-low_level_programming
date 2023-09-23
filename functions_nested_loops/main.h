@@ -1,7 +1,7 @@
 #ifndef HEAD_H
 #define HEAD_H
 
-char(MAIN);
+char(Bloop);
 void print_alphabet(void);
 
 #endif
