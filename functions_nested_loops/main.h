@@ -1,6 +1,6 @@
 #ifndef HEAD_H
 #define HEAD_H
 
-_putchar
+_putchar;
 
 #endif
