@@ -3,8 +3,8 @@
 /**
  * main - printing alphabet with putchar function
  *
- * Discription - using putchar fuction to print all
- * lowercase alphabet with prototype
+ * Discription - using _putchar fuction to print all
+ * lowercase alphabet with prototype print_alphabet
  *
  * Return: 0
  */
