@@ -1,10 +1,9 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - using _putchar fuction to print all
- * lowercase alphabet with prototype 
- * 
  * print_alphabet - prototype print alphabet
+ * using _putchar fuction to print all
+ * lowercase alphabet with prototype
  *
  * Return: 0
  */
