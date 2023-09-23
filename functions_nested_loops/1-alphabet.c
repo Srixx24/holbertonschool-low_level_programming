@@ -2,7 +2,8 @@
 #include "main.h"
 /**
  * main - description using _putchar fuction to print all
- * lowercase alphabet with prototype print_alphabet
+ * lowercase alphabet with prototype 
+ * print_alphabet function as prototype
  *
  * Return: 0
  */
