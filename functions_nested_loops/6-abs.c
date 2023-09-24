@@ -11,6 +11,7 @@ int _abs(int)
 	int x;
 
 	x = abs(-98);
-	
+	printf("absolute value of x = %d\n", x);
+
 	return (0);
 }
