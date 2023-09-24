@@ -4,7 +4,7 @@
  * print_sign - function that prints the sign
  * of a number
  *
- * n - if greater than 0 prints + and returns 1,
+ * @n: if greater than 0 prints + and returns 1,
  * if is 0 prints 0 and returns 0, if less than
  * 0 prints - and returns -1
  *
