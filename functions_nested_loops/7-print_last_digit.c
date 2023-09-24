@@ -18,3 +18,4 @@ int print_last_digit(int x)
 	putchar(last + 0);
 
 	return (last);
+}
