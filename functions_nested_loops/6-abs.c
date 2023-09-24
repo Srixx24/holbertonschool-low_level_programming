@@ -5,7 +5,7 @@
  * _abs - function that computes the
  * absolute value of an integer
  *
- * x - absolute value of an integer
+ * @x: absolute value of an integer
  *
  * Return: 0
  */
