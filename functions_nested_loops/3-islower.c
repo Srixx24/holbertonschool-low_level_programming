@@ -10,15 +10,10 @@
 
 int _islower(int c)
 {
-	char ch = 'x';
 
-	if (_islower(ch) ! = 0)
-		{
-		printf("The character is a lowercase letter.\n");
-		}
-	else 
-		{
-		printf("The character is not a lowercase letter.\n");
-		}
+	if (c >= 97 && c <= 122)
+	{
+		return (1);
+	}
 	return (0);
 }
