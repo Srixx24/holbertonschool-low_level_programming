@@ -5,13 +5,13 @@
  * _abs - function that computes the
  * absolute value of an integer
  * 
- * x - absolute value of an integer
+ * x - absolute value of an integer 
  *
  * Return: 0
  */
 int _abs(int x)
 {
-	if (c <0)
+	if (x <0)
 	
 	{
 		int abs_val;
