@@ -11,6 +11,7 @@ void print_alphabet_x10(void)
 {
 	char ch;
 	int i;
+	printf("\n");
 
 	for (i = 0; i < 10; i++)
 	{
