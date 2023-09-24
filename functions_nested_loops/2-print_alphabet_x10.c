@@ -18,6 +18,6 @@ void print_alphabet_x10(void)
 			printf("%c", ch);
 	}
 
-	printf('\n');
+	printf("\n");
 
 }
