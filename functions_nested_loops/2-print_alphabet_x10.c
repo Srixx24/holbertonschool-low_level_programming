@@ -2,8 +2,7 @@
 #include <stdio.h>
 /**
  * print_alphabet_x10 - prototype print alphabet
- * using _putchar fuction to print all
- * lowercase alphabet with prototype ten times
+ * to print all lowercase alphabet with prototype ten times
  *
  * Return: 0
  */
@@ -19,6 +18,6 @@ void print_alphabet_x10(void)
 			printf("%c", ch);
 	}
 
-	_putchar (10);
+	puts (" ");
 
 }
