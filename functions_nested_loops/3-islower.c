@@ -8,8 +8,8 @@
  * Return: 0 or 1
  */
 
-int islower(int c);
-{
+int _islower(int c);
+({
 	char 'x';
 
 	if (islower(ch) ! = 0
