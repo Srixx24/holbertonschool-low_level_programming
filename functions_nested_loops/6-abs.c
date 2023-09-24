@@ -9,8 +9,6 @@
  */
 int _abs(int x)
 {
-	int x;
-
 	x = abs(-98);
 	printf("%d\n", x);
 
