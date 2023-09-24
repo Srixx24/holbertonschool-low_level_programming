@@ -9,16 +9,16 @@
 
 void print_alphabet_x10(void)
 {
+	char ch;
 	int i;
 
-	for (i = 0; i < 10; i++)
+	while(i++ <= 9)
 	{
-		printf("abcdefghijklmnopqrstuvwxyz");
-		{
-			printf("\n");
-		}
+		for (ch = 'a'; ch <= 'z'; ch++)
+		
+			_putchar(ch);
+		_putcar('\n');_
+	
 	}
-
-	printf("\n");
 
 }
