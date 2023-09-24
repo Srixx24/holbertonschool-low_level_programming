@@ -4,13 +4,21 @@
 /**
  * _abs - function that computes the
  * absolute value of an integer
+ * 
+ * x - absolute value of an integer
  *
  * Return: 0
  */
 int _abs(int x)
 {
-	x = abs(-98);
-	printf("%d\n", x);
+	if (c <0)
+	
+	{
+		int abs_val;
+
+		abs_val =x * -1;
+		return(abs_val);
+	}
 
 	return (0);
 }
