@@ -15,7 +15,7 @@ void print_alphabet_x10(void)
 	{
 		printf("abcdefghijklmnopqrstuvwxyz");
 		{
-			printf("\n")
+			printf("\n");
 		}
 	}
 
