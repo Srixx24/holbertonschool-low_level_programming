@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-int abs(void)
+int _abs(int x)
 {
 	int x;
 
