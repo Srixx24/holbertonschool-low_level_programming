@@ -12,7 +12,7 @@ int _islower(int c)
 {
 	char ch = 'x';
 
-	if (islower(ch) ! = 0
+	if (islower(ch) ! = 0)
 		{
 		printf("The given character is a lowercase letter.\n");
 		}
