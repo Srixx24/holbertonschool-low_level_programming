@@ -7,7 +7,7 @@
  *
  * Return: 0
  */
-int abs(int)
+int main(void)
 {
 	int x;
 
