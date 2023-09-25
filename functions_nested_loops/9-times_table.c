@@ -8,4 +8,18 @@
  */
 void times_table(void)
 {
-	int 
+	int x, y;
+	int c = 10
+	
+	for (x = '0'; x <= c; x++)
+	{
+		for (y = '0'; y <= c; y++)
+		{
+			printf("%d, x * y");
+		}
+	
+	printf("\n");
+	}
+
+}
+
