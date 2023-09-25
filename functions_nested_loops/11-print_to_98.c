@@ -3,9 +3,9 @@
 /**
  * print_to_98 - function that prints all
  * natural numbers from n to 98 followed by
- * a , and in order
+ * a comma and in order
  *
- * @n: 
+ * @n:
  *
  * Return: 0
  */
