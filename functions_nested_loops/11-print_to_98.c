@@ -10,8 +10,8 @@
 void print_to_98(int n)
 {
 	if (n <= 98);
-	{
-		printf("%2d", n);
-	}
+
+	printf("%2d", n);
+
 	return (0);
 }
