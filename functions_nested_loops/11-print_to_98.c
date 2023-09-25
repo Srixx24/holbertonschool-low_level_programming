@@ -5,13 +5,17 @@
  * natural numbers from n to 98 followed by
  * a , and in order
  *
+ * @n: 
+ *
  * Return: 0
  */
 void print_to_98(int n)
 {
-	if (n <= 98);
-
-	printf("%2d", n);
-
-	return (0);
+	if (n > 98)
+	{
+		printf("%d," n);
+	}
+	else (n = 98)
+	{
+		printf("%d");
 }
