@@ -18,7 +18,7 @@ void times_table(void)
 			z = x * y;
 			if (z / 10)
 			{
-				_putchar(k / 10 + 0);
+				_putchar(z / 10 + 0);
 			}
 			else if (y > 0)
 			{
@@ -29,7 +29,7 @@ void times_table(void)
 			if (y < 9)
 			{
 			_putchar(',');
-			_Putchar(' ');
+			_putchar(' ');
 			}
 		}
 	}
