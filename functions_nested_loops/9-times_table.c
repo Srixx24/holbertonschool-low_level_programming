@@ -15,7 +15,7 @@ void times_table(void)
 	{
 		for (y = 0; y <= c; y++)
 		{
-			z = x * y
+			z = x * y;
 			{
 				printf("%2d, ");
 			}
