@@ -15,5 +15,4 @@ void more_numbers(void)
 	{
 		printf("1234567891011121314\n");
 	}
-	printf("\n");
 }
