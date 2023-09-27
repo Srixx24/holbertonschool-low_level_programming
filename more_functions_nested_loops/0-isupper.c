@@ -12,7 +12,7 @@ int _isupper(int c)
 {
 	char ch = 'c';
 
-	if (isupper(c))
+	if (isupper(ch))
 	{
 		putchar(c);
 		return (1);
