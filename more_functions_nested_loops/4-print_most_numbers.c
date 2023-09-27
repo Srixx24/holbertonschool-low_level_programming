@@ -13,8 +13,8 @@ void print_most_numbers(void)
 
 	for (x = 0; x < 10; x++)
 	{
-		if (x == 2 || x == 4) continue;
-
+		if (x == 2 || x == 4) 
+			continue;
 		printf("%d", x);
 	}
 	putchar('\n');
