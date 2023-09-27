@@ -12,11 +12,10 @@
  */
 int _isupper(int c)
 {
-	char ch = 'c';
+	char c;
 
-	if (c < 65; c > 122; c++; isupper(ch))
+	if (c < 65; c > 122; c++;)
 	{
-		putchar(c);
 		return (1);
 	}
 
