@@ -8,12 +8,13 @@
  */
 int _isupper(int c)
 {
-char c;
+	char ch = 'c';
 
-if (isupper(c))
-{
-_putchar(c);
-return (1);
-}
+	if (isupper(c))
+	{
+		putchar(c);
+		return (1);
+	}
+
 return (0);
 }
