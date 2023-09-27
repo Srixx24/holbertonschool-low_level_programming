@@ -8,19 +8,19 @@
  * end with a \n, if n is 0 or less, the
  * function should only print \n
  *
- * @n: lines to draw 
+ * @n: lines to draw
  *
  * Return: 0
  */
 void print_line(int n)
 {
 	int x;
-	
+
 	if (n <= 0)
 	{
 		putchar('\n');
 	}
-	else 
+	else
 	{
 		for (x = 0; x < n; x++)
 		{
