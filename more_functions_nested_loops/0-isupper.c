@@ -10,9 +10,9 @@ int _isupper(int c)
 {
 char ch = 'c';
 
-if (isupper(ch))
+if (isupper(c))
 {
-_putchar (ch);
+_putchar(c);
 return (1);
 }
 return (0);
