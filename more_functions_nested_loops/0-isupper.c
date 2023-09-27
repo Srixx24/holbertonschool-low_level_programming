@@ -12,8 +12,6 @@
  */
 int _isupper(int c)
 {
-	char c;
-
 	if (c < 65; c > 122; c++;)
 	{
 		return (1);
