@@ -15,6 +15,7 @@ void print_most_numbers(void)
 	{
 		if (x != 2 && x != 4)
 			putchar(x + '0');
+			printf("%d", x);
 	}
 	putchar('\n');
 }
