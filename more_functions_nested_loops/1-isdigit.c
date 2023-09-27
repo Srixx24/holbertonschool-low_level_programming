@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include "main.h"
+/**
+ * _isdigit - Write a function that
+ * checks for a digit (0 through 9)
+ *
+ * @c: returns 1 if a digit
+ *
+ * Return: 1 if c is a digit otherwise
+ * 0
+ */
+int _isdigit(int c)
+{
+	int c;
+	if ( 0 >= c; 9 >= c; c++);
+	{
+		return (1);
+	}
+	return (0);
+}
