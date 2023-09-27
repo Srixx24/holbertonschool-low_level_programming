@@ -13,6 +13,6 @@ void more_numbers(void)
 
 	for (x = 0; x < 10; x++)
 	{
-		printf("1234567891011121314\n");
+		printf("01234567891011121314\n");
 	}
 }
