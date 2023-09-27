@@ -26,6 +26,7 @@ void print_square(int size)
 			for (y = 0; y < size; y++)
 			{
 				putchar(35);
+				putchar('\n');
 			}
 		}
 		putchar('\n');
