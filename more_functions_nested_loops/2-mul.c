@@ -6,7 +6,7 @@
  * @a: first value
  * @b: second value
  *
- * return: 0
+ * return: a * b
  */
 int mul(int a, int b)
 {
