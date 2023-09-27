@@ -21,10 +21,9 @@ void print_square(int size)
 	}
 	else
 	{	
-		for (x = 0; x > 10; x++)
+		for (x = 0; x > size; x++)
 		{
-			char('##########');
-			putchar('\n');
+			putchar(35);
 		}
 		putchar('\n');
 	}
