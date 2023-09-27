@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "mian.h"
+#include "main.h"
 /**
  * print_line - function that draws a
  * straight line in the terminal. Where
