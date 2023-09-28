@@ -11,7 +11,10 @@
  */
 void print_array(int *a, int n)
 {
-	for (int a = 0; a < n; a++)
+	int a = 0;
+	int n;
+	
+	for (a < n; a++)
 	{
 		printf("%d", a);
 	}
