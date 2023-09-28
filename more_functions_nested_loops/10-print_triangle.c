@@ -23,10 +23,10 @@ void print_triangle(int size)
 			for (y = 0; y <= x; y++)
 			{
 				putchar(35);
-				putchar('\n');
 			}
 		putchar(35);
 		putchar('\n');
 		}
+		putchar('\n');
 	}
 }
