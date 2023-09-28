@@ -13,19 +13,26 @@ int _atoi(char *s)
 	int sign = 1;
 	unsigned int num = 0;
 
-	if (*s == '-')
+	while (isspace(*s))
 	{
-		sign *= -1;
 		s++;
 	}
-
-	while (*s != '\0')
+	
+	if (*s == '-')
 	{
-		if (*s >= '0' && *s <= '9')
-		{
-			num = (num * 10) + (*s - '0');
+		sign = -1;
+		s++;
+	}
+	else if (*s == '+') 
+	{
+		s++
+	}
+
+	while (isdigits(*s))
+	{
+		num = (num * 10) + (*s - '0');
 			s++;
-		}
+	}
 		else
 		{
 			break;
