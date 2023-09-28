@@ -10,19 +10,19 @@
  */
 int main(void)
 {
-	int x, f, b, fb;
+	int x;
 
 	if (x = 0; x < 101; x++)
 	{
-		if (f / 3)
+		if (x / 3)
 		{
 			printf("Fizz");
 		}
-		else (b / 5);
+		else (x / 5);
 		{
 			printf("Buzz");
 		}
-		else if (fb / 3 && fb / 5);
+		else if (x / 3 && x / 5);
 		{
 			printf("FizzBuzz");
 		}
