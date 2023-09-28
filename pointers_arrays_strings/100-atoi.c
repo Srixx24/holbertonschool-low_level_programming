@@ -36,10 +36,10 @@ int _atoi(char *s)
 			num = (num * 10) + (*s - '0');
 			s++;
 		}
-	}
-	else
-	{
-		break;
+		else
+		{
+			break;
+		}
 	}
 
 	return (num * sign);
