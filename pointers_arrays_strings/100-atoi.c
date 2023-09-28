@@ -26,18 +26,13 @@ int _atoi(char *s)
 	}
 	else if (*s == '+') 
 	{
-		s++
+		s++;
 	}
 
-	while (isdigits(*s))
+	while (isdigit(*s))
 	{
 		num = (num * 10) + (*s - '0');
 			s++;
-	}
-		else
-		{
-			break;
-		}
 	}
 
 	return (num * sign);
