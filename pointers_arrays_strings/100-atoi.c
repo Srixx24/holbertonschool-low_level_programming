@@ -29,10 +29,17 @@ int _atoi(char *s)
 		s++;
 	}
 
-	while (isdigit(*s))
+	while (*s != '\0')
 	{
-		num = (num * 10) + (*s - '0');
+		if (isdigit(*s))
+		{
+			num = (num * 10) + (*s - '0');
 			s++;
+		}
+	}
+	else
+	{
+		break;
 	}
 
 	return (num * sign);
