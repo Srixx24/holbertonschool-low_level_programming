@@ -11,12 +11,11 @@
  */
 void print_array(int *a, int n)
 {
-	int a = 0;
-	int n;
+	int x, n;
 	
-	for (a < n; a++)
+	for (x = 0; x < n; x++)
 	{
-		printf("%d", a);
+		printf("%d", a[x]);
 	}
 	printf("\n");
 }
