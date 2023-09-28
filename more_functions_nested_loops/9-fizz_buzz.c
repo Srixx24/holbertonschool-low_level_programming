@@ -12,17 +12,17 @@ int main(void)
 {
 	int x;
 
-	if (x = 0; x < 101; x++)
+	for (x = 1; x <= 100; x++)
 	{
 		if (x / 3)
 		{
 			printf("Fizz");
 		}
-		else (x / 5);
+		else (x / 5)
 		{
 			printf("Buzz");
 		}
-		else if (x / 3 && x / 5);
+		else if (x / 3 && x / 5)
 		{
 			printf("FizzBuzz");
 		}
