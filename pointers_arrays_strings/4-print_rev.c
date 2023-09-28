@@ -10,13 +10,13 @@
  */
 void print_rev(char *s)
 {
-	int length = stlen(str);
+	int length = strlen(s);
 	int x, y;
 
 	for (x = 0, y =length -1; x <y; x++, y--)
 	{
-		char temp = str[x];
-		str[x] = str[y];
-		str[y] = temp;
+		char temp = s[x];
+		s[x] = s[y];
+		s[y] = temp;
 	}
 }
