@@ -11,9 +11,9 @@
  */
 void print_array(int *a, int n)
 {
-	for (int a = 0; a < n; a++0)
+	for (int a = 0; a < n; a++)
 	{
 		printf("%d", a);
 	}
-	printf('\n');
+	printf("\n");
 }
