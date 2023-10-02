@@ -18,13 +18,13 @@ int _atoi(char *s)
 	{
 		s++;
 	}
-	
+
 	if (*s == '-')
 	{
 		sign = -1;
 		s++;
 	}
-	else if (*s == '+') 
+	else if (*s == '+')
 	{
 		s++;
 	}
@@ -40,9 +40,10 @@ int _atoi(char *s)
 		{
 			if (*s == '+')
 			{
+				s++;
 				continue;
 			}
-			
+
 			break;
 		}
 	}
