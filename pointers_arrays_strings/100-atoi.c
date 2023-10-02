@@ -38,6 +38,11 @@ int _atoi(char *s)
 		}
 		else
 		{
+			if (*s == '+')
+			{
+				continue;
+			}
+			
 			break;
 		}
 	}
