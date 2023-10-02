@@ -39,13 +39,11 @@ int _atoi(char *s)
 		}
 		else
 		{
-			if (*s == '+')
+			if (*s == '+' && nonDigits)
 			{
 				s++;
 				continue;
 			}
-
-			nonDigits++;
 			s++;
 		}
 	}
