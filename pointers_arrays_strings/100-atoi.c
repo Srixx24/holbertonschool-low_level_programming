@@ -13,6 +13,7 @@ int _atoi(char *s)
 {
 	int sign = 1;
 	unsigned int num = 0;
+	int nonDigits = 0;
 
 	while (isspace(*s))
 	{
@@ -44,7 +45,8 @@ int _atoi(char *s)
 				continue;
 			}
 
-			break;
+			nonDigits++;
+			s++;
 		}
 	}
 
