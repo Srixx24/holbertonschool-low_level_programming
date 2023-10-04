@@ -3,18 +3,21 @@
 /**
  * *_strcat - function that concatenates two strings.
  *
+ * @dest: destination string
+ * @src: source string
+ *
  * Return: Pointer to result string
  */
 char *_strcat(char *dest, char *src)
 {
-	char *ptr;
-	
+	char *prt;
+
 	while (*src != '\0')
 	{
 		*ptr++ = *src++;
 	}
 
-	*ptr = '\0';
+	*prt = '\0';
 
 	return (dest);
 }
