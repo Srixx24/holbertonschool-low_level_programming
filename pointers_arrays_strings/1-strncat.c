@@ -2,14 +2,14 @@
 #include "main.h"
 #include <string.h>
 /**
- * *_strncat - function that concatenates two strings
- * return vaule of dest string
+ * *_strncat - Concatenates two strings, using at
+ * most n bytes from src.
  *
  * @dest: destination string
  * @src: source string
- * @n: number of characters
+ * @n: number of bytes
  *
- * return _strncat: dest
+ * Return: A pointer to the resulting string dest.
  */
 char *_strncat(char *dest, char *src, int n)
 {
