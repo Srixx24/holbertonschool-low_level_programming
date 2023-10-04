@@ -9,7 +9,7 @@
  * @src: source string
  * @n: number of characters
  *
- * _strncat return: dest
+ * return _strncat: dest
  */
 char *_strncat(char *dest, char *src, int n)
 {
