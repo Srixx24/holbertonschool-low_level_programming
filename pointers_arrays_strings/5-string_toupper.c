@@ -10,13 +10,13 @@
  */
 char *string_toupper(char *)
 {
-	int i;
+	int i = 0;
 
 	while (*[i])
 	{
-		*[i] = toupper;
+		*[i] = toupper(*[i]);
 		i++;
 	}
 
-	return (0);
+	return (*);
 }
