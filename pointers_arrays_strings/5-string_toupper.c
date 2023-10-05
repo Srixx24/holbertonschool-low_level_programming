@@ -8,10 +8,9 @@
  *
  * Return: 0
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
 	int i = 0;
-	char * = str
 
 	while (str[i])
 	{
@@ -19,5 +18,5 @@ char *string_toupper(char *)
 		i++;
 	}
 
-	return (str);
+	return (0);
 }
