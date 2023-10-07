@@ -21,7 +21,7 @@ char *cap_string(char *str)
 		{
 			cap = 1;
 		}
-		else
+		else (cap)
 		{
 			*ptr = toupper(*ptr);
 			cap = 0;
