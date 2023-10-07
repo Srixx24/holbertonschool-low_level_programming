@@ -30,8 +30,8 @@ char *leet(char *str)
 			(x == 'l' || x == 'L') ? '1' : x;
 	
 		}
-	
-	ptr++;
+		ptr++;
+	}
 
 	return (str);
 }
