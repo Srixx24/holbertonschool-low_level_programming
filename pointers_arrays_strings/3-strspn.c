@@ -6,7 +6,7 @@
  * @s: pointer
  * @accept: string
  *
- * Return: n 
+ * Return: n
  */
 unsigned int _strspn(char *s, char *accept)
 {
@@ -22,7 +22,7 @@ unsigned int _strspn(char *s, char *accept)
 				n++;
 				break;
 			}
-			else if (accept[x+ 1] == '\0')
+			else if (accept[x + 1] == '\0')
 				return (n);
 		}
 		s++;
