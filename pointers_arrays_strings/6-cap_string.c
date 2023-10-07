@@ -21,11 +21,16 @@ char *cap_string(char *str)
 		{
 			cap = 1;
 		}
-		else (cap)
+		else if (cap)
 		{
 			*ptr = toupper(*ptr);
 			cap = 0;
 		}
+		else
+		{
+			*ptr = tolower(*ptr);
+		}
+
 		ptr++;
 	}
 
