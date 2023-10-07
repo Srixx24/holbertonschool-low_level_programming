@@ -20,15 +20,27 @@ char *leet(char *str)
 
 	while (*ptr)
 	{
-		if (x == 'a' || x == 'A' || x == 'e' || x == 'E' || x== 'o' || x == 'O'
-		|| x == 't' || x == 'T' || x == 'l' || x == 'L')
+		if (x == 'a' || x == 'A')
 		{
-			*ptr = (x == 'a' || x == 'A') ? '4' :
-			(x == 'e' || x == 'E') ? '3' :
-			(x == 'o' || x == 'O') ? '0' :
-			(x == 't' || x == 'T') ? '7' :
-			(x == 'l' || x == 'L') ? '1' : x;
-	
+			*ptr = '4';
+		}
+		else if (x == 'e' || x == 'E')
+		{
+			*ptr = '3';
+		}
+		else if (x == 'o' || x == 'O')
+		{
+			*ptr = '0';
+		}
+		else if (x == 't' || x == 'T')
+		{
+			*ptr = '7';
+		}
+		else if (x == 'l' || x == 'L')
+		{
+			*ptr = '1';
+		}
+
 		}
 		ptr++;
 	}
