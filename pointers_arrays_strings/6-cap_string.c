@@ -13,18 +13,14 @@
 char *cap_string(char *str)
 {
 	char *ptr = str;
-	int cap = 1;
 
 	while (*ptr)
 	{
 		if (isspace(*ptr))
-		{
-			cap = 1;
-		}
+
 		else
 		{
 			*ptr = toupper(*ptr);
-			cap = 0;
 		}
 		ptr++;
 	}
