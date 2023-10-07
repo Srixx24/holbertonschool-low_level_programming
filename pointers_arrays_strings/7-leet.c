@@ -41,7 +41,6 @@ char *leet(char *str)
 			*ptr = '1';
 		}
 
-		}
 		ptr++;
 	}
 
