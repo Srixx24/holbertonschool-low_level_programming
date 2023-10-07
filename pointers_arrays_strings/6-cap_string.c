@@ -17,7 +17,8 @@ char *cap_string(char *str)
 	while (*ptr)
 	{
 		if (isspace(*ptr))
-
+		{
+		}
 		else
 		{
 			*ptr = toupper(*ptr);
