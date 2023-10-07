@@ -3,7 +3,7 @@
 #include <string.h>
 #include <ctype.h>
 /**
- * cap_string - function that capitalizes 
+ * cap_string - function that capitalizes
  * all words of a string.
  *
  * @str: string
@@ -17,7 +17,7 @@ char *cap_string(char *str)
 
 	while (*ptr)
 	{
-		if (isspace(*ptr))
+		if (*ptr == ' ' || *ptr == '\n' || *ptr == ',' || *ptr == ';' || *ptr == '.' || *ptr == '!' || *ptr == '?' || *ptr == '"' || *ptr == '(' || *ptr == ')' || *ptr == '{' || *ptr == '}')
 		{
 			cap = 1;
 		}
