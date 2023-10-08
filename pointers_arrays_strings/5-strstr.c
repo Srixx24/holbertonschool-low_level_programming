@@ -11,5 +11,22 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	return (needle(haystack, needle));
+	char x = haystack;
+	char y = needle;
+
+	while (x != '\0')
+	{
+		while (x == y && y != '\0')
+		{
+			x++;
+			y++;
+		}
+		if (y == '\0')
+		{
+			return (x);
+		}
+		x++;
+	}
+
+	return (y);
 }
