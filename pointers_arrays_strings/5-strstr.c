@@ -14,14 +14,14 @@ char *_strstr(char *haystack, char *needle)
 	char *x = haystack;
 	char *y = needle;
 
-	while (x != '\0')
+	while (*x != '\0')
 	{
-		while (x == y && y != '\0')
+		while (*x == *y && *y != '\0')
 		{
 			x++;
 			y++;
 		}
-		if (y == '\0')
+		if (*y == '\0')
 		{
 			return (haystack);
 		}
