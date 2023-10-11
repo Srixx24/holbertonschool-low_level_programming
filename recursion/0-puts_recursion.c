@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _puts_recursion: function that
- * prints a string, followed by a new line.
+ * _puts_recursion - prints a string with new line.
  *
  * @s: string
  *
