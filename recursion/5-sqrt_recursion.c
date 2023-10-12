@@ -23,8 +23,8 @@ int _sqrt_recursion(int n)
 	else
 	{
 		x = _sqrt_recursion(n / 2);
-		
-		if (x > n)
+
+		if (x * x > n)
 		{
 			return (x - 1);
 		}
