@@ -10,17 +10,22 @@
  */
 int is_prime_number(int n)
 {
-	int x = 2;
+	int x;
 
-	if (n <= 1)
+	if (n < 2)
 	{
 		return (0);
 	}
 
-	for (; x * x <= x; x++)
+	if (x == 1)
+	{
+		return (1);
+	}
+
+	if (n % x == 0)
 	{
 		return (0);
 	}
 
-	return (1);
+	return (is_prime_number (n, n - 1);
 }
