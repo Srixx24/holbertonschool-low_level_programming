@@ -5,13 +5,12 @@
  * is a prime number, otherwise return 0
  *
  * @n: number
+ * @x: divisor
  *
  * Return: 1 or 0
  */
-int is_prime_number(int n)
+int is_prime_number(int n, int x)
 {
-	int x;
-
 	if (n < 2)
 	{
 		return (0);
