@@ -17,7 +17,7 @@ int is_prime_number(int n)
 		return (0);
 	}
 
-	for (;x * x <= x; x++);
+	for (; x * x <= x; x++)
 	{
 		return (0);
 	}
