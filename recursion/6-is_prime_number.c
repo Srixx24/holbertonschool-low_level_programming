@@ -4,8 +4,7 @@
  * is_prime_number - returns 1 if the input integer
  * is a prime number, otherwise return 0
  *
- * is_prime_recursive - returns 1 if the input integer
- * is a prime number, otherwise return 0
+ * is_prime_recursive - recursive call
  *
  * @n: number
  * @x: divisor
