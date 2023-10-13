@@ -4,6 +4,9 @@
  * is_prime_number - returns 1 if the input integer
  * is a prime number, otherwise return 0
  *
+ * is_prime_recursive - returns 1 if the input integer
+ * is a prime number, otherwise return 0
+ *
  * @n: number
  * @x: divisor
  *
@@ -11,7 +14,7 @@
  */
 int is_prime_recursive(int n, int x)
 {
-	if (n < 2) 
+	if (n < 2)
 	{
 	return (0);
 	}
