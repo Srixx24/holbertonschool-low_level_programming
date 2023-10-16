@@ -19,15 +19,18 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return(0);
 	}
-	else if (x = 1; x < argc; x++)
+	else 
 	{
-		char *arg = argv[x];
-		for (y = 0; arg[y] != '\0'; y++)
+		for (x = 1; x < argc; x++)
 		{
-			if (isdigit(arg[y]))
+			char *arg = argv[x];
+			for (y = 0; arg[y] != '\0'; y++)
 			{
-				printf("Error\n");
-				return(1);
+				if (isdigit(arg[y]))
+				{
+					printf("Error\n");
+					return(1);
+				}
 			}
 		}
 	}
