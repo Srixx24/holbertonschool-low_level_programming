@@ -38,6 +38,7 @@ int main(int argc, char *argv[])
 			total += num; 
 		}
 	}
-
+	
+	printf("%d\n", total);
 	return (0);
 }
