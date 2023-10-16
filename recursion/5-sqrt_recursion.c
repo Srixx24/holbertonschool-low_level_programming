@@ -4,8 +4,7 @@
  * _sqrt_recursion - returns the natural
  * square root of a number.
  *
- * _sqrt - function with return int and takes
- * two parameters
+ * _sqrt - return int and takes two parameters
  *
  * @n: number to calculate
  * @i: number to iterate
