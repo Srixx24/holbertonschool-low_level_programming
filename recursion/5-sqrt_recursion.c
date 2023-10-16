@@ -4,31 +4,23 @@
  * _sqrt_recursion - returns the natural
  * square root of a number.
  *
- * @n: Sqrt
+ * @n: number to calculate
+ * @i: number to iterate
  *
  * Return: -1
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n, int i)
 {
-	int x;
+	int sqrt = i * i;
 
-	if (n < 0)
+	if (sqrt > n)
 	{
 		return (-1);
 	}
-	else if (n == 0 || n == 1)
-	{
-		return (n);
+	if (sqrt == n)
+	{ 
+		return (i);
 	}
-	else
-	{
-		x = _sqrt_recursion(n / 2);
 
-		if (x * x > n)
-		{
-			return (x - 1);
-		}
-
-		return (x);
-	}
+	return (_sqrt_recursion(n, i + 1)); 
 }
