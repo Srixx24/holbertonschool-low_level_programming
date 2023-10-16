@@ -34,9 +34,9 @@ int main(int argc, char *argv[])
 					return(1);
 				}
 			}
+			num = atoi(arg);
+			total += num; 
 		}
-		num = atoi(arg);
-		total += num; 
 	}
 
 	return (0);
