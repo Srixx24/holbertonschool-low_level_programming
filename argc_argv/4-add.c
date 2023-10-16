@@ -19,9 +19,9 @@ int main(int argc, char *argv[])
 	if (argc <= 1)
 	{
 		printf("0\n");
-		return(0);
+		return (0);
 	}
-	else 
+	else
 	{
 		for (x = 1; x < argc; x++)
 		{
@@ -31,14 +31,14 @@ int main(int argc, char *argv[])
 				if (!isdigit(arg[y]))
 				{
 					printf("Error\n");
-					return(1);
+					return (1);
 				}
 			}
 			num = atoi(arg);
-			total += num; 
+			total += num;
 		}
 	}
-	
+
 	printf("%d\n", total);
 	return (0);
 }
