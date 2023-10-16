@@ -6,7 +6,7 @@
  * @n: number
  * @x: divisor
  *
- * return 1 or 0
+ * Return: 1 or 0
  */
 int is_prime_recursive(int n, int x)
 {
