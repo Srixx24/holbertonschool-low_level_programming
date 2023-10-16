@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 {
 	int x, y;
 	int total = 0;
-	int num = atoi(arg);
+	int num = atoi(argv);
 
 	if (argc <= 1)
 	{
