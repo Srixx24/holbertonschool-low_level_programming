@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - program that multiplies two numbers.
  *
@@ -16,7 +17,7 @@ int main(int argc, char *argv[])
 	{
 		x1 = atoi(argv[1]);
 		x2 = atoi(argv[2]);
-		x1 * x2;
+		printf("%d\n", x1 * x2);
 		
 		else 
 		{
