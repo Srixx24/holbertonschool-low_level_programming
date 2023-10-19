@@ -14,8 +14,6 @@
  */
 char *_strdup(char *str)
 {
-	int x = 0;
-	int y = 1;
 	char *ds;
 	
 	if (str == NULL)
@@ -23,14 +21,14 @@ char *_strdup(char *str)
 		return (NULL);
 	}
 	
-	ds = malloc((sizeof(char) * y) + 1);
+	char *ds = malloc((strlen(str) + 1) * sizeof(char));
 
 	if (ds == NULL)
 	{
 		return (NULL);
 	}
 
-	ds = malloc((sizeof(char) * (strlen(str) + 1); strcpy(ds, str);
+	strcpy(ds, str);
 
 	return (ds);
 }
