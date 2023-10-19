@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	strcpy(s, s1);
-	strcat(s, s2);
+	strcat(s + l1, s2);
 
 	return (s);
 }
