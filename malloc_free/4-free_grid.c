@@ -10,7 +10,7 @@
  * @grid: grid of arrays
  * @height: height
  *
- * Return: 
+ * Return: 0
  */
 void free_grid(int **grid, int height)
 {
@@ -25,6 +25,6 @@ void free_grid(int **grid, int height)
 	{
 		free(grid[x]);
 	}
-	
+
 	free(grid);
 }
