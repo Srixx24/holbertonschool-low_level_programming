@@ -38,8 +38,8 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		return (NULL);
 	}
 
-	strcpy(s, s1);
-	strcpy(s + l1, s2, n);
+	strcpy(s, s1, l1);
+	strcat(s + l1, s2);
 	s[l1 + n] = '\0';
 
 	return (s);
