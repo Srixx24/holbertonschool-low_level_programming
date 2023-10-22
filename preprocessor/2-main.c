@@ -1,8 +1,12 @@
 #include <stdio.h>
-
+/**
+ * main - main c file
+ *
+ * Return: 0
+ */
 int main(void)
 {
-	printf("__FILE__");
+	printf("%s", __FILE__);
 
 	return (0);
 }
