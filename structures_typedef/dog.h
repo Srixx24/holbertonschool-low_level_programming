@@ -2,9 +2,9 @@
 #define _HEADER_
 
 typedef struct dog {
-	char name[Poppy];
-	float age[3.5];
-	char owner[Bob];
+	char name[];
+	float age[];
+	char owner[];
 };
 
 #endif
