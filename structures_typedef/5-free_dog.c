@@ -6,7 +6,7 @@
 /**
  * free_dog - function that frees dogs
  *
- * @d: structure of dog
+ * @d: structure of dog 
  *
  * Return: 0
  */
