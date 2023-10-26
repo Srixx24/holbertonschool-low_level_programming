@@ -25,8 +25,8 @@ dog_t *new_dog(char *name, float age, char *owner)
 		return (NULL);
 	}
 
-	newname = malloc(strlen(name));
-	newowner = malloc(strlen(owner));
+	newname = malloc(strlen(name) + 1);
+	newowner = malloc(strlen(owner) + 1);
 
 	if (newname == NULL || newowner == NULL)
 	{
