@@ -6,12 +6,14 @@
 /**
  * print_name - function that prints a name
  *
- * @name: 
- * @f: 
+ * @name: string
+ * @f: argument
  *
  * Return: 0
  */
 void print_name(char *name, void (*f)(char *))
 {
 	f(name);
+
+	return (*);
 }
