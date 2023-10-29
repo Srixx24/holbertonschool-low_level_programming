@@ -4,9 +4,9 @@
 /**
  * int_index - function that searches for an integer
  *
- * @array:
- * @size: 
- * @cmp:
+ * @array: array
+ * @size: size
+ * @cmp: 
  *
  * Return: 0
  */
@@ -18,9 +18,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 	{
 		if (array != NULL && cmp != NULL)
 		{
-			while (x < size)
+			for (x = 0; x < size; x++)
 			{
-				x++;
+				if cmp((array[x]) != 0)
+				{
+					return x;
+				}
 			}
 		}
 	}
