@@ -21,14 +21,14 @@ int sum_them_all(const unsigned int n, ...)
 		return (0);
 	}
 	
-	va_start(arg, n);
+	va_start(arg n);
 
 	for (x = 0; x < n; x++)
 	{
-		sum = va_arg(arg);
+		sum = va_arg(args);
 	}
 
-	va_end(arg);
+	va_end(args);
 
 	return (sum);
 }
