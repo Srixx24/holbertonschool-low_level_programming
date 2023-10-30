@@ -12,12 +12,12 @@
  * Return: 0
  */
 void print_strings(const char *separator, const unsigned int n, ...)
-{ 
+{
 	va_list args;
 	const char *str;
 	unsigned int x;
 
-	va_start(args,n);
+	va_start(args, n);
 
 	for (x = 0; x < n; x++)
 	{
@@ -28,6 +28,11 @@ void print_strings(const char *separator, const unsigned int n, ...)
 			printf("nil");
 		}
 		else
+		{
+			printf("%s", str);
+		}
+
+		if (separator !_ NULL && x < - 1)
 		{
 			printf("%s", separator);
 		}
