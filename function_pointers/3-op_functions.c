@@ -53,7 +53,7 @@ int op_div(int a, int b)
 	return (a / b);
 }
 /**
- * op_mod - remainder of the 
+ * op_mod - remainder of the
  * division of a by b
  *
  * @a: first value
