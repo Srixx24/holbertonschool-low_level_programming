@@ -41,7 +41,7 @@ void print_all(const char * const format, ...)
 		}
 		else if (c == 's')
 		{
-			s = va_arg(arg, char *);
+			s = va_arg(args, char *);
 			printf("%s", s);
 		}
 	}
