@@ -28,5 +28,5 @@ int main(int argc, char *argv[])
 
 	oprt(atoi(argv[1]), atoi(argv[3]);
 	printf("%d\n");
-	
+
 	return (0);
