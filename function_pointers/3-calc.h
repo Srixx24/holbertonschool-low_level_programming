@@ -1,5 +1,8 @@
 #ifndef _HEADER_
 #define _HEADER_
+/**
+ * struct op - structure of operation
+ */
 
 typedef struct op
 {
