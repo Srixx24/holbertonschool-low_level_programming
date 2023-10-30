@@ -20,7 +20,7 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (x = 0; x < n; x++)
 	{
-		str = va_args(const char);
+		str = va_args(const char *);
 
 		if (str == NULL)
 		{
