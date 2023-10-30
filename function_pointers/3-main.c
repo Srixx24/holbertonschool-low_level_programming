@@ -16,17 +16,17 @@ int main(int argc, char *argv[])
 
 	if (argc)
 	{
-		boop
+		printf("error\n");
 	}
 
 	oprt = get_op_func(argv[2]);
 
 	if (!oprt)
 	{
-		boop
+		printf("error\n");
 	}
 
-	oprt(atoi(argv[1]), atoi(argv[3];
+	oprt(atoi(argv[1]), atoi(argv[3]);
 	printf("%d\n");
 	
 	return (0);
