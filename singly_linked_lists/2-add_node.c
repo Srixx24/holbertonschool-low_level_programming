@@ -18,10 +18,12 @@ list_t *add_node(list_t **head, const char *str)
 	if (str == NULL)
 		return NULL;
 	
-	struct new = malloc(sizeof(new));
+	list_t new = malloc(sizeof(list_t));
 	new->value = str;
 
-	new->next = **head;
+	new->next = *head;
 
-	**head = new
+	*head = new
+	
+	return (new);
 }
