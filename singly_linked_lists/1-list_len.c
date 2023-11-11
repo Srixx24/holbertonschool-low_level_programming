@@ -6,7 +6,7 @@
  * list_len - function that returns the number
  * of elements in a linked list_t list
  *
- * @h: 
+ * @h: header
  *
  * Return: count
  */
@@ -16,16 +16,16 @@ size_t list_len(const list_t *h)
 
 	if (h == NULL)
 	{
-		return count;
+		return (count);
 	}
 	else
 	{
-		while(h != NULL)
+		while (h != NULL)
 		{
 			count++;
 			h = h->next;
 		}
 	}
 
-	return count;
+	return (count);
 }
