@@ -1,10 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-typedef struct lists_t {
-	int value;
-	struct lists_t *next;
-}list_t
+typedef struct lists_s {
+	char value;
+	struct lists_s *next;
+}list_t;
 
 size_t print_list(const list_t *h);
 
