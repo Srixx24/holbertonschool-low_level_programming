@@ -20,11 +20,12 @@ size_t print_list(const list_t *h)
 	}
 	else
 	{
-		cur = h;
-
-		printf("%d ", cur->data);
-		cur = cur->next;
-		count++;
+		while (cur != NULL)
+		{
+			printf("%d ", cur->data);
+			cur = cur->next;
+			count++;
+		}
 	}
 
 	return (count);
