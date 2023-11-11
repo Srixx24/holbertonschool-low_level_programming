@@ -19,7 +19,7 @@ size_t print_list(const list_t *h)
 	}
 	else
 	{
-		while (cur != NULL)
+		while (h != NULL)
 		{
 			printf("[%d] %s",h->x, h->value);
 			h = h->next;
