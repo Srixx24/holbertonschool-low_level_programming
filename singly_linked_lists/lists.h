@@ -3,7 +3,7 @@
 
 typedef struct list_s
 {
-	char value;
+	char *value;
 	int x;
 	struct list_s *next;
 }list_t;
