@@ -2,6 +2,10 @@
 #define MAIN_H
 /**
  * struct list_s - list type
+ *
+ * @value: string
+ * @x: length of string
+ * @next: next
  */
 typedef struct list_s
 {
