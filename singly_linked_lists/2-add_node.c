@@ -13,12 +13,12 @@
  */
 list_t *add_node(list_t **head, const char *str)
 {
-	struct new;
+	node new;
 
 	if (str == NULL)
 		return NULL;
 	
-	new = malloc(sizeof(new));
+	struct new = malloc(sizeof(new));
 	new->value = str;
 
 	new->next = **head;
