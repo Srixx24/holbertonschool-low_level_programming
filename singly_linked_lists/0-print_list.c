@@ -22,7 +22,7 @@ size_t print_list(const list_t *h)
 	{
 		while (cur != NULL)
 		{
-			printf("%d ", cur->value);
+			printf("[%d] %c",cur->x, cur->value);
 			cur = cur->next;
 			count++;
 		}
