@@ -3,6 +3,7 @@
 
 typedef struct lists_s {
 	char value;
+	int x;
 	struct lists_s *next;
 }list_t;
 
