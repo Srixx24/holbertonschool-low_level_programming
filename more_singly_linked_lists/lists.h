@@ -1,9 +1,14 @@
 #ifndef HEADER_
 #define HEADER_
-
+/**
+ * struct listint_s - singly linked list
+ *
+ * @x: int
+ * @next: next node
+ */
 typedef struct listint_s
 {
-	int x
+	int x;
 	struct listint_s *next;
 } list_t;
 
