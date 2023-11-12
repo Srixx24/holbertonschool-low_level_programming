@@ -6,10 +6,10 @@
  * @x: int
  * @next: next node
  */
-typedef struct list_t
+typedef struct listint_t
 {
 	int x;
-	struct list_t *next;
+	struct listint_t *next;
 } list_t;
 
 size_t print_listint(const listint_t *h);
