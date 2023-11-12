@@ -24,14 +24,14 @@ void free_listint2(listint_t **head)
 		{
 			next = cur->next;
 			free(cur);
-			cur = head;
+			cur = *head;
 		}
 		else
 		{
 			cur->next;
 			free(cur);
 		}
-		count++
+		count++;
 	}
 
 	*head = NULL;
