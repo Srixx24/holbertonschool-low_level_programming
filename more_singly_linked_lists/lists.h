@@ -4,13 +4,11 @@
  * struct listint_s - singly linked list
  *
  * @x: int
- * @n: testing
  * @next: next node
  */
 typedef struct listint_s
 {
 	int x;
-	int n;
 	struct listint_s *next;
 } listint_t;
 
