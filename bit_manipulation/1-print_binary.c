@@ -13,14 +13,16 @@
 void print_binary(unsigned long int n)
 {
 	unsigned long int bit = 1ul << (sizeof(n) * 8 - 1);
+	int extra = 0;
 
 	while (bit > 0)
 	{
 		if (n & bit)
 		{
 			printf("1");
+			extra = 1;
 		}
-		else
+		else if (extra)
 		{
 			printf("0");
 		}
