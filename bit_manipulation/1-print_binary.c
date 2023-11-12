@@ -29,8 +29,6 @@ void print_binary(unsigned long int n)
 			printf("0");
 		}
 
-		bit >> 1;
+		bit >>= 1;
 	}
-
-	return (n);
 }
