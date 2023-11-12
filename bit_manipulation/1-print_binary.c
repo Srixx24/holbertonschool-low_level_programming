@@ -12,7 +12,7 @@
  */
 void print_binary(unsigned long int n)
 {
-	unsigned int bit = sizeof(n) * 8;
+	unsigned int bit = 1u << (sizeof(n) * 8 - 1);
 
 	while (bit > 0)
 	{
