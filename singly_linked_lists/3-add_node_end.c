@@ -10,7 +10,7 @@
  * @head: head
  * @str: string
  *
- * Return:
+ * Return: new or NULL
  */
 list_t *add_node_end(list_t **head, const char *str)
 {
@@ -28,7 +28,7 @@ list_t *add_node_end(list_t **head, const char *str)
 	if (new->str == NULL)
 	{
 		free(new);
-		return NULL;
+		return (NULL);
 	}
 
 	new->next = *head;
