@@ -13,16 +13,21 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	FILE *file = open
+	FILE *file = popen;
 
 	if (filename == NULL)
 	{
 		return (0);
 	}
-	
-	*file = open("filename", "r")
+
+	*file = popen("filename", "r");
 	
 	if (file == NULL)
+	{
 		return (0);
+	}
+
+	fclose(file);
+	return (0);
 
 }
