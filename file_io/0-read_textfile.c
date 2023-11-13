@@ -42,7 +42,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 	}
 
-	bw = write(STDOUT_FILENO, &data, br);
+	bw = write(STDOUT_FILENO, data, br);
 	close(file);
 
 	return (bw);
