@@ -19,7 +19,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	}
 	else
 	{	
-		FILE *file = open("filename", "r")
+		FILE *file = popen("filename", "r")
 		content = file.read()
 		print(content)
 		file.close
