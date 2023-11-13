@@ -18,10 +18,10 @@ int append_text_to_file(const char *filename, char *text_content)
 	int file;
 	ssize_t bw;
 
-	if (file == NULL)
+	if (filename == NULL)
 		return (-1);
 
-	file = open(filname, O_WRONLY |O_APPEND);
+	file = open(filename, O_WRONLY |O_APPEND);
 
 	if (file == -1)
 		return (-1);
