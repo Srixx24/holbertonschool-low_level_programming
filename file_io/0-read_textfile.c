@@ -13,13 +13,15 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	FILE *file = open("filename", "r");
+	int file;
 
 	if (filename == NULL)
 	{
 		return (0);
 	}
-	
+
+	file = open("filename", "r");
+
 	if (file == NULL)
 	{
 		return (0);
