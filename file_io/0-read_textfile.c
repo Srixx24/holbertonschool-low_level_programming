@@ -18,18 +18,28 @@
 ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
+	char data;
+	ssize_t br, wr;
 
 	if (filename == NULL)
 		return (0);
 
 	file = open(filename, O_RDONLY);
 
-
 	if (file == -1)
 	{
 		return (0);
 	}
 
-	return (0);
+	br = read(file, data, letters);
+
+	if (br <0)
+		return (0);
+
+	bw = write(data, br);
+	close(file);
+
+
+	return (bw);
 
 }
