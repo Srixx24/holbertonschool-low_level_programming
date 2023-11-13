@@ -13,4 +13,15 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	boop
+	if (filename == NULL)
+	{
+		return (0);
+	}
+	else
+	{	
+		file = open("filename.txt", "r")
+		content = file.read()
+		print(content)
+		file.close
+	}
+}
