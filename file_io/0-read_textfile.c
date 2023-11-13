@@ -17,12 +17,10 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	{
 		return (0);
 	}
-	else
-	{	
-		FILE *file = popen("filename", "r")
-		content = file.read()
-		print(content)
-		file.close
-	}
+	
+	FILE *file = popen("filename", "r")
+	
+	if (file == NULL)
+		return (0);
 
 }
