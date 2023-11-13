@@ -19,7 +19,8 @@ ssize_t read_textfile(const char *filename, size_t letters)
 {
 	int file;
 	char data;
-	ssize_t br, wr;
+	ssize_t br;
+	ssize_t bw;
 
 	if (filename == NULL)
 		return (0);
@@ -27,9 +28,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 	file = open(filename, O_RDONLY);
 
 	if (file == -1)
-	{
 		return (0);
-	}
 
 	br = read(file, data, letters);
 
@@ -38,7 +37,6 @@ ssize_t read_textfile(const char *filename, size_t letters)
 
 	bw = write(data, br);
 	close(file);
-
 
 	return (bw);
 
