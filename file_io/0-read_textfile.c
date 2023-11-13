@@ -13,14 +13,12 @@
  */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
-	FILE *file = fopen;
+	FILE *file = open("filename", "r");
 
 	if (filename == NULL)
 	{
 		return (0);
 	}
-
-	*file = fopen("filename", "r");
 	
 	if (file == NULL)
 	{
