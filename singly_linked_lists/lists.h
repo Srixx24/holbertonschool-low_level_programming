@@ -3,8 +3,8 @@
 /**
  * struct list_s - list type
  *
- * @value: string
- * @x: length of string
+ * @str: string
+ * @len: length of string
  * @next: next
  */
 typedef struct list_s
