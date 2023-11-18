@@ -23,7 +23,7 @@ int delete_dnodeint_at_index(dlistint_t **head, unsigned int index)
 	if (index != 0)
 	{
 		if (*head != NULL)
-			(*head)-prev = NULL;
+			(*head)->prev = NULL;
 		cur = *head;
 		*head = (*head)->next;
 		free(cur);
