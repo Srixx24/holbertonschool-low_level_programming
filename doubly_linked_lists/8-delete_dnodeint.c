@@ -4,7 +4,7 @@
 
 /**
  * delete_dnodeint_at_index - function that deletes the node at
- * index index of a dlistint_t linked list.
+ * index index of a dlistint_t linked list
  *
  * @head: head
  * @index: index
