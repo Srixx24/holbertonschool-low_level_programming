@@ -7,8 +7,17 @@
  *
  * @str: string
  *
- * Return: 0
+ * Return: hash
  */
 unsigned long int hash_djb2(const unsigned char *str)
 {
-	boop
+	unsigned long hash = 5381;
+	int x;
+
+	while (x = *str)
+	{
+		hash = ((hash << 5) + hash) + x;
+	}
+
+	return (hash);
+}
