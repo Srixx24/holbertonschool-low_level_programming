@@ -13,4 +13,31 @@
  */
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
 {
-	boop
+	unsigned long int idx;
+	hash_node_t *new;
+	hash_node_t *node;
+
+	if (ht == NULL || key == NULL)
+		return (0);
+
+	idx = kidx((unsigned char *) key, ht->size);
+	node = ht->array[idx];
+	new = malloc(sizeof(hash_node_t *));
+
+	if (new == NULL)
+		return (0);
+
+	while (node != NULL)
+	{
+		if (strcmp(key, node->key) == 0)
+		{
+			node->value = strdup(value)
+			return (1);
+		}
+	}
+
+	new->next = ht->array[idx];
+	ht->array[idx] = new;
+
+	return (1);
+}
