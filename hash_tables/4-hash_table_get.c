@@ -21,10 +21,13 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	idx = hvalue ((unsigned char *)key, ht->size);
 	n = ht->array[idx]
 	
-	while (n)
+	while (n != NULL)
 	{
+		if (strcmp( key, n->key) == 0)
+			return (n->value);
 
+		n = n->next;
 	}
 
-	return ();
+	return (NULL);
 }
