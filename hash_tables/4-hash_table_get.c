@@ -12,4 +12,19 @@
  */
 char *hash_table_get(const hash_table_t *ht, const char *key)
 {
-	boop
+	hash_node_t *n;
+	unsigned int idx;
+
+	if (ht == NULL || key == NULL)
+		return (0);
+
+	idx = hvalue ((unsigned char *)key, ht->size);
+	n = ht->array[idx]
+	
+	while (n)
+	{
+
+	}
+
+	return ();
+}
