@@ -19,7 +19,7 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 		return (0);
 
 	idx = hvalue ((unsigned char *)key, ht->size);
-	n = ht->array[idx]
+	n = ht->array[idx];
 	
 	while (n != NULL)
 	{
