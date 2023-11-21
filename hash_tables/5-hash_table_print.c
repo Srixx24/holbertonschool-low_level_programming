@@ -11,7 +11,7 @@
  */
 void hash_table_print(const hash_table_t *ht)
 {
-	unsigned int x;
+	unsigned int x = 0;
 	hash_node_t *node;
 
 	if (ht == NULL)
@@ -24,7 +24,6 @@ void hash_table_print(const hash_table_t *ht)
 			node = ht->array[x];
 			node = node->next;
 		}
-	
 		x++;
 	}
 }
