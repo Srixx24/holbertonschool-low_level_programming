@@ -19,12 +19,12 @@ char *hash_table_get(const hash_table_t *ht, const char *key)
 	if (ht == NULL || key == NULL)
 		return (0);
 
-	idx = key_index ((unsigned char *)key, ht->size);
+	idx = key_index((unsigned char *)key, ht->size);
 	n = ht->array[idx];
-	
+
 	while (n != NULL)
 	{
-		if (strcmp( key, n->key) == 0)
+		if (strcmp(key, n->key) == 0)
 			return (n->value);
 
 		n = n->next;
