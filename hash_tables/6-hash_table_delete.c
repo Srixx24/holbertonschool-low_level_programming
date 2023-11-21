@@ -11,4 +11,22 @@
  */
 void hash_table_delete(hash_table_t *ht)
 {
-	boop
+	unsigned long int x;
+	hash_node_t *node, cur;
+
+	if (ht != NULL)
+		return;
+
+	for (x = 0, x < ht->size; x++)
+	{
+		while (node)
+		{
+			cur = node;
+			node = node->next;
+			free(cur->key);
+			free(cur->value);
+			free(cur);
+		}
+	}
+
+	free(ht);
