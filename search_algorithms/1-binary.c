@@ -27,7 +27,6 @@ int binary_search(int *array, size_t size, int value)
 			else
 				printf("%d, ", array[x]);
 		}
-		printf("\n");
 		mid = (low + hi) / 2;
 		if (array[mid] == value)
 			return (mid);
@@ -35,6 +34,7 @@ int binary_search(int *array, size_t size, int value)
 			low = mid + 1;
 		else
 			hi = mid - 1;
+		printf("\n");
 	}
 
 	return (-1);
