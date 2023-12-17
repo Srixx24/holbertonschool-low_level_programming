@@ -34,8 +34,8 @@ int binary_search(int *array, size_t size, int value)
 			low = mid + 1;
 		else
 			hi = mid - 1;
-		printf("\n");
 	}
 
+	printf("\n");
 	return (-1);
 }
