@@ -6,8 +6,32 @@
  * @array: array
  * @size: size
  * @value: value
- * Return: 0
+ * Return: - 1 if not found
  */
 int binary_search(int *array, size_t size, int value)
 {
-	boop
+	int x, low, mid, hi;
+
+	if (array == NULL)
+		return (-1);
+
+	while (low <= hi)
+	{
+		mid = (low + hi) / 2;
+		printf("Searching in array: ");
+		for (x = low; x <= hi; x++)
+		{
+			printf("%d ", array[x]);
+		}
+		printf("\n");
+
+		if (array[mid] < value)
+			return (mid);
+		else if (array[mid] < value)
+			low = mid + 1;
+		else
+			hi = mid - 1;
+	}
+
+	return (-1);
+}
